@@ -61,7 +61,7 @@
 
 本仓库将持续更新，欢迎点个 star ⭐️！
 
-https://github.com/fuxuemingzhu/algorithm-template
+[https://github.com/fuxuemingzhu/algorithm-templates](https://github.com/fuxuemingzhu/algorithm-templates)
 
 
 
