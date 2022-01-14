@@ -21,21 +21,6 @@
 - 与 C++/Java 不同，Python 中没有「字符 char」类型；
 - 用`''`或者`""`表示。
 
-#### 字符与整数表示相互转换
-
-使用场景：
-
-- 假如定义了一个大小为 26 的数组，每个位置保存一个小写英文字符出现的个数。
-  - 则 `ord('x') - ord('a')` 就是字符 `x` 在数组中的下标。
-  - 则 `chr(ord('a') + 1)` 表示数组下标 1 对应的字符，即 `'b'`。
-
-```python
->>> ord('A')
-65
->>> chr(66)
-'B'
-```
-
 #### 长度
 
 ```python
@@ -110,6 +95,21 @@ python 的字符串是不可变对象，不支持修改。
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: 'str' object does not support item assignment
+```
+
+#### 字符与 ASCII 码相互转换
+
+使用场景：
+
+- 假如定义了一个大小为 26 的数组，每个位置保存一个小写英文字符出现的个数。
+  - 则 `ord('x') - ord('a')` 就是字符 `x` 在数组中的下标。
+  - 则 `chr(ord('a') + 1)` 表示数组下标 1 对应的字符，即 `'b'`。
+
+```python
+>>> ord('A')
+65
+>>> chr(66)
+'B'
 ```
 
 ### 列表 list
